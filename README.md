@@ -4,5 +4,5 @@ Simple note storage API backed by
   * Express
   * MongoDB
 
-When running the docker container, remember to forward to port from 3000 to
+When running the docker container, remember to forward port from 3000 to
 your desired port (most likely port 80 if want access by web).
