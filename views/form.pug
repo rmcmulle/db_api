@@ -1,0 +1,14 @@
+html
+  head
+    title Create Note
+  body
+    form(action = "/", method = "POST")
+      div
+        label(for = "title") Title:
+        input(name = "title_input" value = "Enter title")
+      br
+      div
+        label(for = "body") Body:
+        input(name = "body_input" value = "Enter content")
+      br
+      button(name = "submit_btn" type = "submit") Submit Note
